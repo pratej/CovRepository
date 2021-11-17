@@ -17,8 +17,7 @@ public class App_01 {
 		System.out.println("Id: "+student1.getId()+" Name :"+student1.getName());
 		Triangle triangle=(Triangle) ctxt.getBean("tri");
 		System.out.println(triangle.getPointA()+" "+triangle.getPointB()+" "+triangle.getPointC());
-		
-
-	}
+		System.out.println("hello");
+		}
 
 }
