@@ -10,6 +10,7 @@
 </head>
 <body>
 	<h2>Department Details</h2>
+	
 	<table border="3" bgcolor="#FFFFFF" style="text-align: center;">
 		<tr>
 			<th>ID</th>

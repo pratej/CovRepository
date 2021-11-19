@@ -57,8 +57,8 @@ public class EmployeeController {
 
 	@RequestMapping(value = "editEmp", method = RequestMethod.GET)
 	public ModelAndView editEmp(@RequestParam int id) throws InvalidEmployeeIdException {
-		Employee empTOEdit = employeeService.findById(id);
-		ModelAndView modelAndView = new ModelAndView("editEmp", "empToEdit", empTOEdit);
+		Employee empToEdit = employeeService.findById(id);
+		ModelAndView modelAndView = new ModelAndView("editEmp", "empToEdit", empToEdit);
 		modelAndView.addObject("departmentService", departmentService);
 
 		return modelAndView;

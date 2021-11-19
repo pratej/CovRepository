@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.cov</groupId>
-	<artifactId>SpringBootDataJPA</artifactId>
+	<artifactId>SpringProject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringBootDataJPA</name>
+	<name>SpringProject</name>
 	<description>Spring Boot  DataJPA for Processing</description>
 	<properties>
 		<java.version>1.8</java.version>

@@ -17,10 +17,6 @@
 	<br>
 	<br> Name:${ department.name }
 	<br>
-	<br>
-
-
-
 	<a href="/">Home</a>
 	<a href="getDepts">ShowAllDepartment</a>
 

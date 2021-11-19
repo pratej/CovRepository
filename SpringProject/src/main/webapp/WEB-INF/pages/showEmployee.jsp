@@ -9,11 +9,19 @@
 <title>All employee page</title>
 </head>
 <body>
-	<h2>Employee Details</h2>
+	<h2>Employee Details</h2><br><br><br>
+	<label for="department">Search for Department:</label>
+
+<select name="showdepartment" id="department">
+  <option value="Sales">Sales</option>
+  <option value="Production">Production</option>
+  <option value="Marketing">Marketing</option>
+</select>
 	<table border="3" bgcolor="#FFFF00" style="text-align: center;">
 		<tr>
 			<th>ID</th>
 			<th>Name</th>
+			
 			<th>Edit</th>
 			<th>Delete</th>
 		</tr>

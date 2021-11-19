@@ -14,10 +14,22 @@
 		<form:label path="name">Name</form:label>
 		<form:input path="name" />
 		<br>
+		<!--  <label for="department">Choose a department:</label>
+
+		<select name="regDepartment" id="department">
+			<option value="select">select</option>
+			<option value="java">java</option>
+			<option value="c">c</option>
+			
+		</select> -->
 		<br>
-		<input type="submit" value="Register"><br><br>
+		<input type="submit" value="Register">
+		<br>
+		<br>
 	</form:form>
-	<a href="getDepts">List of all Department</a><br><br>
+	<a href="getDepts">List of all Department</a>
+	<br>
+	<br>
 	<a href="/">Back</a>
 </body>
 </html>

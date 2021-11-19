@@ -8,7 +8,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>REgistration Page</title>
+<title>Registration Page</title>
 </head>
 <body>
 	<form:form action="regemp" method="post" modelAttribute="employee">
@@ -27,10 +27,11 @@
 		<form:label path="department">Department</form:label>
 		<form:select path="department">
 			<form:option value="0">--Select--</form:option>
+			
 			<%
 			for (Department department : departments) {
 			%>
-			<form:option value="<%= department %>"><%=department.getName()%></form:option>
+			<form:option value="<%= department%>"><%=department.getName()%></form:option>
 			<%
 			}
 			%>
