@@ -52,4 +52,14 @@ public class EmployeeService {
 		employeeRepository.deleteById(id);
 		return employee;
 	}
+
+	public Employee findAllByDeptno(int deptid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Employee insert(Employee employee) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
